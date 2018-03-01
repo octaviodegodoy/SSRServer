@@ -14,7 +14,7 @@ export default [
       },
       {
         ...UsersListPage,
-        path: '/users',
+        path: '/users'
       }
 
     ]
