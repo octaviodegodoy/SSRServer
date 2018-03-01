@@ -14,8 +14,9 @@ const Header = ({ auth }) => {
   return (
     <nav>
     <div className="nav-wrapper">
-      <Link to="/" className="brand-logo">DAC SSR</Link>
-
+      <Link to="/" className="brand-logo">
+        DAC SSR
+      </Link>
       <ul className="right">
         <li><Link to="/users">Users</Link></li>
         <li><Link to="/admins">Admins</Link></li>
